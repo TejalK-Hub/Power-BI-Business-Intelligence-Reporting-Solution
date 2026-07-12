@@ -1,6 +1,12 @@
 # powerbi-data-modeling-semantic-model-project
 Part 1: Building an enterprise-style Power BI semantic model using dimensional modeling and Star Schema principles.
 
+> **Part 1 of a Project Series**
+>
+> This repository focuses on building an enterprise-style semantic model using Power BI, dimensional modeling, Star Schema, Power Query, DAX, and Row-Level Security.
+>
+> **Part 2:** Interactive Business Dashboards (Coming Soon)
+
 ![Final Semantic Model](https://github.com/TejalK-Hub/powerbi-data-modeling-semantic-model-project/raw/main/data_model.PNG)
 
 
