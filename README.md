@@ -1,7 +1,8 @@
 # powerbi-data-modeling-semantic-model-project
 Part 1: Building an enterprise-style Power BI semantic model using dimensional modeling and Star Schema principles.
 
-![Semantic Model](C:\Users\tejal\OneDrive\Desktop\Data With Baraa\Power BI\My Work\docs\data_model.png)
+![Final Semantic Model](https://github.com/TejalK-Hub/powerbi-data-modeling-semantic-model-project/raw/main/data_model.PNG)
+
 
 ## Project Overview
 
