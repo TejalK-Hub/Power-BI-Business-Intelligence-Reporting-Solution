@@ -1,6 +1,8 @@
 # powerbi-data-modeling-semantic-model-project
 Part 1: Building an enterprise-style Power BI semantic model using dimensional modeling and Star Schema principles.
 
+![Semantic Model](data_model.png)
+
 ## Project Overview
 
 This project demonstrates an end-to-end Business Intelligence data modeling workflow by transforming a complex operational dataset into a clean, scalable, and production-ready Power BI semantic model.
