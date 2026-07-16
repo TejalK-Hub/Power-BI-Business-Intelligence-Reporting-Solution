@@ -5,7 +5,7 @@ An end-to-end Business Intelligence project demonstrating semantic data modeling
 >
 > Semantic Data Modeling
 >
-> ![Final Semantic Model](https://github.com/TejalK-Hub/powerbi-data-modeling-semantic-model-project/raw/main/data_model.PNG)
+> ![Final Semantic Model](https://github.com/TejalK-Hub/Power-BI-Business-Intelligence-Reporting-Solution/blob/main/Phase-1-Semantic-Data-Modeling/data_model.png)
 
 > **Phase 2**
 >
