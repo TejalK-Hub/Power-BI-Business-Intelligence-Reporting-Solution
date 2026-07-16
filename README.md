@@ -1,26 +1,32 @@
-# powerbi-data-modeling-semantic-model-project
-Part 1: Building an enterprise-style Power BI semantic model using dimensional modeling and Star Schema principles.
+# Power BI Business Intelligence Reporting Solution
+An end-to-end Business Intelligence project demonstrating semantic data modeling, reusable business logic, and interactive executive dashboards using Microsoft Power BI.
 
-> **Part 1 of a Project Series**
+> **Phase 1**
 >
-> This repository focuses on building an enterprise-style semantic model using Power BI, dimensional modeling, Star Schema, Power Query, DAX, and Row-Level Security.
+> Semantic Data Modeling
 >
-> **Part 2:** Interactive Business Dashboards (Coming Soon)
+> ![Final Semantic Model](https://github.com/TejalK-Hub/powerbi-data-modeling-semantic-model-project/raw/main/data_model.PNG)
 
-![Final Semantic Model](https://github.com/TejalK-Hub/powerbi-data-modeling-semantic-model-project/raw/main/data_model.PNG)
-
-
-## Project Overview
-
-This project demonstrates an end-to-end Business Intelligence data modeling workflow by transforming a complex operational dataset into a clean, scalable, and production-ready Power BI semantic model.
-
-Instead of focusing on dashboard creation, the project emphasizes designing a high-quality data model that supports accurate reporting, reusable business logic, improved performance, and secure analytics.
-
-The project follows dimensional modeling best practices commonly used in enterprise BI solutions.
-
----
+> **Phase 2**
+>
+> Executive Business Dashboards
+>
 
 # Project Summary
+
+This project demonstrates an end-to-end Business Intelligence solution built using Microsoft Power BI. It covers the complete BI workflow from transforming raw operational data into an enterprise-ready semantic model to delivering interactive executive dashboards for business reporting and decision support.
+
+The project is divided into two phases:
+
+- **Phase 1:** Design and development of a scalable Power BI semantic model using dimensional modeling, Galaxy Schema, DAX, Power Query, and Row-Level Security (RLS).
+- **Phase 2:** Development of six interactive executive dashboards built on the semantic model to deliver business insights across sales, products, customers, inventory, campaigns, and order operations.
+
+The final solution transforms **23 raw operational tables** into a centralized Business Intelligence model consisting of **6 Dimension tables, 6 Fact tables, 2 Support tables, reusable DAX measures, and 6 executive dashboards**, following enterprise BI best practices.
+---
+
+# Phase 1 : Semantic Data Modeling
+
+**phase 1 Summary**
 
 | Item | Details |
 |------|---------|
@@ -32,7 +38,7 @@ The project follows dimensional modeling best practices commonly used in enterpr
 | Final Fact Tables | 6 |
 | Support Tables | 2 |
 | Total Production Tables | 14 |
-| Reusable Measures | 5+ |
+| Reusable Measures | 15+ |
 | Security | Row-Level Security (RLS) |
 | Relationship Type | One-to-Many , One-to-One|
 | Filter Direction | Single Direction |
@@ -99,7 +105,7 @@ Customer        Product        Geography
 
 ---
 
-# Project Objectives
+#  Objectives
 
 - Understand business processes before modeling.
 - Build a scalable Star Schema.
@@ -113,7 +119,7 @@ Customer        Product        Geography
 
 ---
 
-# Project Workflow
+#  Workflow
 
 ## Step 1 - Business Understanding
 
@@ -683,3 +689,134 @@ The final model provides:
 - Improved query performance
 - Secure role-based data access
 - Scalable foundation for enterprise Power BI reporting
+
+  ---
+
+# Phase 2 - Business Intelligence Dashboards
+
+After completing the semantic model, the next phase focused on transforming the centralized business model into interactive executive dashboards for business reporting and decision support.
+
+All dashboards are built on top of the same semantic model, ensuring consistent business logic, reusable DAX measures, and a single source of truth across the reporting layer.
+
+The reporting solution consists of six domain-focused dashboards, each designed to answer specific business questions through interactive KPIs, visual analytics, and cross-filtering.
+
+---
+
+# Dashboard Overview
+
+| Dashboard | Business Focus |
+|-----------|----------------|
+| Executive Sales Overview | Executive sales performance and target tracking |
+| Product Performance Dashboard| Product, brand, and category analysis |
+| Customer Analysis Dashboard| Customer behavior and regional performance |
+| Inventory Management | Inventory health and stock planning |
+| Campaign Performance Dashboard| Marketing spend and campaign effectiveness |
+| Order Process Dashboard| Operational efficiency and order lifecycle analysis |
+
+---
+
+# Business Questions Addressed
+
+## Executive Sales Overview
+
+Provides an executive summary of overall business performance.
+
+**Business Questions**
+
+- How is the business performing over time?
+- Are sales meeting business targets?
+- Which products contribute the highest revenue?
+- Which regions generate the strongest sales performance?
+
+---
+
+## Product Performance Dashboard
+
+Analyzes product portfolio performance across brands and categories.
+
+**Business Questions**
+
+- Which products generate the highest sales?
+- Which brands contribute the most revenue?
+- How do product categories compare in sales performance?
+- Which products consistently outperform others?
+
+---
+
+## Customer Analysis Dashboard
+
+Provides customer-centric insights to support business growth and retention.
+
+**Business Questions**
+
+- How many customers are currently active?
+- Which customer segments generate the highest revenue?
+- Which regions contribute the most sales and order volume?
+- Who are the highest-value customers?
+- How long does the average customer payment cycle take?
+
+---
+
+## Inventory Dashboard
+
+Supports inventory planning and stock optimization.
+
+**Business Questions**
+
+- What is the current inventory value and available stock?
+- Which products require immediate replenishment?
+- Which brands and categories hold the highest inventory?
+- What is the current stock distribution?
+- Which products require reorder based on minimum stock levels?
+
+---
+
+## Campaign Performance Dashboard
+
+Evaluates marketing effectiveness and budget utilization.
+
+**Business Questions**
+
+- How much has been invested in marketing campaigns?
+- Is campaign spending within the allocated budget?
+- Which marketing channels consume the highest spend?
+- How is campaign expenditure changing over time?
+- Which campaigns require further optimization?
+
+---
+
+## Order Process Dashboard
+
+Monitors operational efficiency across the order lifecycle.
+
+**Business Questions**
+
+- How is order volume changing over time?
+- Which stage of the order lifecycle takes the longest?
+- What is the current distribution of order statuses?
+- Which regions experience longer processing cycles?
+- Which orders require operational attention based on processing performance?
+
+---
+
+# Dashboard Features
+
+Implemented across all dashboards:
+
+- Interactive slicers and cross-filtering
+- Executive KPI cards
+- Reusable DAX measures
+- Dynamic business KPIs
+- Consistent enterprise dashboard theme
+- Business-focused visualizations
+- Executive reporting layout
+- Centralized semantic model integration
+- Row-Level Security (RLS) support
+
+---
+
+# Outcome
+
+Phase 1: Successfully transformed the semantic model into a complete Business Intelligence reporting solution consisting of six interactive executive dashboards.
+
+Phase 2: The reporting layer enables business users to monitor performance, analyze trends, identify operational bottlenecks, and make data-driven decisions through a centralized, scalable, and reusable semantic model.
